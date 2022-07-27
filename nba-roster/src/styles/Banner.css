@@ -4,3 +4,8 @@
     padding: 32px;
     border-bottom: solid 3px black;
 }
+
+.logo {
+    display: flex;
+    width: 3%;
+}

@@ -1,8 +1,10 @@
 import '../styles/Banner.css'
 import logo from '../assets/NBA_logo.png'
 function Banner() {
+    const title = 'Create your NBA Roster'
     return <div className="banner">
-                <h1>Create your NBA Roster</h1>
+                <img src={logo} alt="logo NBA" className="logo" />
+                <h1 className="title"> {title} </h1>
             </div>
 }
 
