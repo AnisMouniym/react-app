@@ -1,22 +1,22 @@
-import { rosterList } from '../datas/playerList'
-
+import '../styles/RosterList.css'
+import { playerList } from '../datas/playerList'
 function Rosterlist() {
-    const postions = rosterList.reduce(
+    const positions = playerList.reduce(
 		(acc, player) =>
-			acc.includes(player.postion) ? acc : acc.concat(player.postion),
+			acc.includes(player.position) ? acc : acc.concat(player.position),
 		[]
 	)
 
 	return (
 		<div>
 			<ul>
-				{postions.map((cat) => (
+				{positions.map((cat) => (
 					<li key={cat}>{cat}</li>
 				))}
 			</ul>
 			<ul>
-				{rosterList.map((player) => (
-					<li key={player.id}>{player.name}</li>
+				{playerList.map((player) => (
+					<li key={player.id}>{player.name} {player.isMostChosen && <span>🌟</span>} {player.isHOF && <span id='hof' >HOF</span>}</li>
 				))}
 			</ul>
 		</div>
