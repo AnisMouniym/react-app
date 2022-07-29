@@ -18,6 +18,7 @@ function Rosterlist() {
 				{playerList.map((player) => (
 					<li key={player.id}>{player.name} {player.isMostChosen && <span>🌟</span>} {player.isHOF && <span id='hof' >HOF</span>}</li>
 				))}
+				
 			</ul>
 		</div>
 	)
