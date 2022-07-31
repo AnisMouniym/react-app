@@ -1,14 +1,14 @@
 import CareScale from './CareScale'
 import '../styles/PlayerItem.css'
 
-function PlayerItem({ id, cover, name, water, light }) {
+function PlayerItem({ id, name, rings, mvp }) {
 	return (
-		<li key={id} className='lmj-plant-item'>
-			<img className='lmj-plant-item-cover' src={cover} alt={`${name} cover`} />
+		<li key={id} className='player-item'>
+			<img className='player-item-cover' src={cover} alt={`${name} cover`} />
 			{name}
 			<div>
-				<CareScale careType='water' scaleValue={water} />
-				<CareScale careType='light' scaleValue={light} />
+				<CareScale careType='rings' scaleValue={rings} />
+				<CareScale careType='mvp' scaleValue={mvp} />
 			</div>
 		</li>
 	)

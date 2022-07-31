@@ -1,8 +1,7 @@
 import rings from '../assets/trophy.png'
 import mvp from '../assets/mvp.jpg'
-
-function CareScale({ scaleValue, careType }) {
-	const range = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+import { playerList } from '../datas/playerList'
+function CareScale({careType}) {
 	const scaleType =
 		careType === 'rings' ? (
 			<img src={rings} alt='rings-icon' />
@@ -12,10 +11,8 @@ function CareScale({ scaleValue, careType }) {
 
 	return (
 		<div>
-			{range.map((rangeElem) =>
-				scaleValue >= rangeElem ? (
+			{playerList.map((rangeElem) =>
 					<span key={rangeElem.toString()}>{scaleType}</span>
-				) : null
 			)}
 		</div>
 	)
