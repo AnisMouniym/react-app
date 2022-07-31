@@ -6,11 +6,11 @@ function Period() {
     
     if (isPlayoff) { 
         return(
-            <div>It's Playoff time !</div>
+            <div>It's Playoff time baby !</div>
         )
     } else if (isEndOfSeason) {
         return (
-            <div>It's the end of season !</div>
+            <div>It's the end of season, wait for October !</div>
         )
     } else {
         <div>It's the regular season !</div>
