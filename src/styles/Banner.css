@@ -5,7 +5,14 @@
     border-bottom: solid 3px black;
 }
 
+.title {
+    font-size: 3em;
+}
+
 .logo {
     display: flex;
     width: 3%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

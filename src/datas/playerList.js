@@ -1,7 +1,7 @@
 export const playerList = [
 	{
 		name: 'STEPHEN CURRY',
-		position: 'point guard',
+		position: 'PG',
 		id: '1ed',
 		isMostChosen: true,
 		isHOF: false,
@@ -11,7 +11,7 @@ export const playerList = [
 	},
 	{
 		name: 'RAY ALLEN',
-		position: 'shooting guard',
+		position: 'SG',
 		id: '2ab',
 		isMostChosen: false,
 		isHOF: true,
@@ -21,7 +21,7 @@ export const playerList = [
 	},
 	{
 		name: 'JAMES HARDEN',
-		position: 'shooting guard',
+		position: 'SG',
 		id: '3sd',
 		isMostChosen: false,
 		isHOF: false,
@@ -31,7 +31,7 @@ export const playerList = [
 	},
 	{
 		name: 'LEBRON JAMES',
-		position: 'forward',
+		position: 'F',
 		id: '4kk',
 		isMostChosen: true,
 		isHOF: false,
@@ -41,7 +41,7 @@ export const playerList = [
 	},
 	{
 		name: 'MICHAEL JORDAN',
-		position: 'shooting guard',
+		position: 'SG',
 		id: '5pl',
 		isMostChosen: true,
 		isHOF: true,
@@ -51,7 +51,7 @@ export const playerList = [
 	},
 	{
 		name: 'KOBE BRYANT',
-		position: 'shooting guard',
+		position: 'SG',
 		id: '6uo',
 		isMostChosen: true,
 		isHOF: true,
@@ -61,7 +61,7 @@ export const playerList = [
 	},
 	{
 		name: 'DAMIAN LILLARD',
-		position: 'point guard',
+		position: 'PG',
 		id: '7ie',
 		isMostChosen: false,
 		isHOF: false,
@@ -71,7 +71,7 @@ export const playerList = [
 	},
 	{
 		name: 'KEVIN DURANT',
-		position: 'forward',
+		position: 'F',
 		id: '8fp',
 		isMostChosen: false,
 		isHOF: false,
@@ -81,7 +81,7 @@ export const playerList = [
 	},
 	{
 		name: 'TIM DUNCAN',
-		position: 'forward',
+		position: 'F',
 		id: '9vn',
 		isMostChosen: false,
 		isHOF: true,

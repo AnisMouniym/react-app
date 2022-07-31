@@ -29,4 +29,5 @@ function Banner() {
   </div>)
 }
   
+  // eslint-disable-next-line no-undef
   ReactDOM.render(<Banner />, document.getElementById("root"))
